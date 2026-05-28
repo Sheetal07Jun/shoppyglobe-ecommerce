@@ -255,6 +255,7 @@ a {
   transform: translateY(-8px);
   background: linear-gradient(145deg, #ffffff, var(--soft-blue-2));
   box-shadow: 0 25px 60px rgba(79, 70, 229, 0.15);
+  transition: 0.3s ease;
 }
 
 .product-card img {
