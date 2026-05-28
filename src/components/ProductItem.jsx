@@ -18,7 +18,7 @@ function ProductItem({ product }) {
             />
 
             <h3>{product.title}</h3>
-            <p>${product.price}</p>
+            <p>${product.price.toFixed(2)}</p>
 
             <Link to={`/product/${product.id}`}>
                 <button className="view-btn">View Details</button>
