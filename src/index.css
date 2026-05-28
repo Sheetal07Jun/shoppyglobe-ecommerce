@@ -795,6 +795,14 @@ a {
   }
 }
 
+.error-box {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
 /* =============== FORMS ================== */
 
 form {

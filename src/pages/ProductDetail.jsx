@@ -26,7 +26,7 @@ function ProductDetail() {
         fetchProduct();
     }, [id]);
 
-    if (error) return <h2>{error}</h2>;
+    if (error) return <h2 className="error-box">{error}</h2>;
     if (!product) return <h2>Loading...</h2>;
 
     return (
