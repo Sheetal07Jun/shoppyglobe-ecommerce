@@ -94,7 +94,7 @@ function Home() {
                 {/* Controls Row */}
                 <div className="products-controls">
                     <p className="result-count">
-                        {filteredProducts.length} products found
+                        {filteredProducts.length} Products Found
                     </p>
 
                     <select
