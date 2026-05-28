@@ -237,8 +237,11 @@ a {
 }
 
 .product-card {
-  background: linear-gradient(145deg, #ffffff, var(--soft-blue));
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(79, 70, 229, 0.15);
   border-radius: 22px;
+  outline: 1px solid #f1f5f9;
   padding: 25px;
   transition: all 0.3s ease;
   box-shadow: 0 15px 40px rgba(79, 70, 229, 0.08);
@@ -256,6 +259,7 @@ a {
   background: linear-gradient(90deg, var(--primary-light), var(--primary));
 }
 .product-card:hover {
+  border-color: rgba(79, 70, 229, 0.3);
   transform: translateY(-8px);
   background: linear-gradient(145deg, #ffffff, var(--soft-blue-2));
   box-shadow: 0 25px 60px rgba(79, 70, 229, 0.15);
