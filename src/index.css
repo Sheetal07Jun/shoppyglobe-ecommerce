@@ -324,6 +324,10 @@ a {
   margin-bottom: 17px;
 }
 
+.product-description {
+  line-height: 1.8;
+  font-size: 15px;
+}
 /* ========== BUTTON ============ */
 
 .view-btn {
