@@ -1,4 +1,7 @@
 /* ============ GLOBAL RESET  ============== */
+html {
+  scroll-behavior: smooth;
+}
 
 :root {
   --primary: #4f46e5;
