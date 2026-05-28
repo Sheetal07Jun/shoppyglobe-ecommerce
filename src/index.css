@@ -895,5 +895,9 @@ button:focus-visible {
   .products-section {
     padding: 30px 20px;
   }
+  .modern-header {
+    flex-direction: column;
+    gap: 15px;
+  }
 
 }
