@@ -164,7 +164,8 @@ a {
 }
 
 .hero-image:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 20px rgba(79, 70, 229, 0.25);
 }
 
 .hero-image img {
