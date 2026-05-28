@@ -748,6 +748,11 @@ a {
   margin-bottom: 30px;
 }
 
+.success-message {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+
 /* BUTTON */
 .detail-add-btn {
   background: linear-gradient(135deg, #6366f1, #4f46e5);
