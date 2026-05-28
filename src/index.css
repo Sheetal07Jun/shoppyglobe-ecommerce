@@ -911,4 +911,7 @@ button:focus-visible {
     gap: 15px;
   }
 
+  .product-detail-card {
+    flex-direction: column;
+  }
 }
