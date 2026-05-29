@@ -26,7 +26,14 @@ function Checkout() {
     };
 
     if (orderPlaced) {
-        return <h2>Order placed successfully 🎉</h2>;
+        return (
+            <div className="center-message">
+                <h2 className="success-message">
+                    Order placed successfully 🎉
+                </h2>
+                <p>Redirecting to home...</p>
+            </div>
+        );
     }
 
     return (
