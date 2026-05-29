@@ -47,7 +47,7 @@ function ProductDetail() {
                     </p>
 
                     <div className="detail-price">
-                        ${product.price}
+                        ${product.price.toFixed(2)}
                     </div>
 
                     <button
